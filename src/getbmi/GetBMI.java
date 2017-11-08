@@ -40,16 +40,9 @@ public class GetBMI {
         System.out.println("Your BMI is    "+bmi+  "kg/m2");
         
         
-        if(bmi<18.5)
+        if(bmi>30)
         {
-            System.out.println("You are UNDERWEIGHT");
-        
-        }
-        
-        else if(18.5<=bmi)
-        {
-        
-            System.out.println("You are NORMALWEIGHT");
+            System.out.println("You are OBESE");
         
         }
         
@@ -59,12 +52,19 @@ public class GetBMI {
             System.out.println("You are OVERWEIGHT");
         
         }
-     
         
-        else if(bmi>=30)
+        else if(18.5=<bmi)
         {
         
-            System.out.println("You are OBESE");
+            System.out.println("You are NORMALWEIGHT ");
+        
+        }
+     
+        
+        else if(bmi<18.5)
+        {
+        
+            System.out.println("You are UNDERWEIGHT ");
         
         }
         
